@@ -13,5 +13,6 @@ module.exports = {
 	rules: {
 		"react-refresh/only-export-components": "off",
 		"no-mixed-spaces-and-tabs": "off",
+		"@typescript-eslint/no-unused-vars": "off",
 	},
 };
