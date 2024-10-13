@@ -1,0 +1,19 @@
+{
+	"version": "1.0.0",
+	"configurations": [
+		{
+			"name": "Launch Firefox",
+			"type": "firefox",
+			"skipFiles": ["${workspaceFolder}/node_modules/**/*.js"],
+			"request": "launch",
+			"url": "http://localhost:5173",
+			"webRoot": "${workspaceFolder}/src",
+			"pathMappings": [
+				{
+					"url": "http://localhost:5173/src",
+					"path": "${workspaceFolder}/src"
+				}
+			]
+		}
+	]
+}

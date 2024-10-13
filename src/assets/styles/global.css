@@ -105,3 +105,9 @@
 .dark .darkmode-toggle button {
 	@apply left-[1.5rem];
 }
+
+/* map container sizing */
+.leaflet-container {
+	width: 100%;
+	height: 100vh;
+}
