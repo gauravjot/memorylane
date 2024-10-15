@@ -13,7 +13,7 @@ export function Sidebar() {
 				</div>
 			)}
 			<button
-				className="p-2 text-white bg-blue-500 rounded-md"
+				className="p-2 text-white bg-blue-500 rounded-md add-marker-btn"
 				onClick={() => appState.setMapState("add_marker")}
 				aria-enabled={appState.mapState === "add_marker"}
 			>

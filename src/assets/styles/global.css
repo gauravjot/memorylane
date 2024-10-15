@@ -111,6 +111,6 @@
 	width: 100%;
 	height: 100vh;
 }
-.leaflet-grab:has(button[aria-enabled="true"]) {
+#root:has(button[aria-enabled="true"].add-marker-btn) .leaflet-grab {
 	cursor: crosshair;
 }
